@@ -13,6 +13,20 @@ module.exports = {
             tool: "notarytool",
         },
     },
+    publishers: [
+        {
+            name: "@electron-forge/publisher-github",
+            config: {
+                repository: {
+                    owner: "torives",
+                    name: "poker-updater-demo",
+                },
+                draft: true,
+                prerelease: false,
+                authToken: process.env.GITHUB_TOKEN,
+            },
+        },
+    ],
     makers: [
         {
             name: "@electron-forge/maker-squirrel",
