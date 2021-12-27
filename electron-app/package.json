@@ -3,6 +3,7 @@
     "productName": "cartesi-texas-hodlem",
     "version": "1.0.0",
     "description": "Cartesi's Texas HODL'em",
+    "repository": "https://github.com/torives/poker-updater-demo",
     "main": "dist/index.js",
     "scripts": {
         "src:clean": "rimraf src",
@@ -82,6 +83,7 @@
         "@portis/web3": "^4.0.6",
         "@types/howler": "^2.2.4",
         "electron-squirrel-startup": "^1.0.0",
+        "update-electron-app": "^2.0.1",
         "ethers": "^5.5.2",
         "howler": "^2.2.3",
         "phaser": "^3.55.2",
